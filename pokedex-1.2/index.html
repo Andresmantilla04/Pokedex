@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pokédex</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Pokédex</h1>
+        <div class="search">
+          <input type="text" id="search-input" placeholder="Buscar...">
+          <button id="search-button">Buscar</button>
+        </div>
+      </header>
+      <div class="card-list" id="card-list">
+        <!-- Aquí se insertarán las tarjetas de los pokemones -->
+      </div>
+    </div>
+
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <span class="close-button" id="close-button">&times;</span>
+        <h2 id="modal-title"></h2>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img id="modal-image" src="">
+          </div>
+          <div class="modal-info">
+            <p id="modal-description"></p>
+            <div class="stats">
+              <p><strong>Peso:</strong> <span id="modal-weight"></span> kg</p>
+              <p><strong>Altura:</strong> <span id="modal-height"></span> m</p>
+            </div>
+            <div class="moves">
+              <h3>Ataques:</h3>
+              <ul id="modal-moves">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokedex</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Pokedex</h1>
+		</div>
+		<div class="pokedex">
+			<div class="pokedex-screen">
+				<img id="poke-image" src="" alt="Pokemon Image">
+				<h2 id="poke-name"></h2>
+				<p id="poke-description"></p>
+			</div>
+			<div class="pokedex-buttons">
+				<button id="prev-button" onclick="prevPokemon()">Prev</button>
+				<button id="next-button" onclick="nextPokemon()">Next</button>
+			</div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
